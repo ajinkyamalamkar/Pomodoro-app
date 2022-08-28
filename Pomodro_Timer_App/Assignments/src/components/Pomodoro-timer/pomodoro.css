@@ -1,0 +1,109 @@
+.pomodoro{
+    height: 100vh;
+    background-color: rgb(4, 107, 107);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pomo{
+    font-size: 50px;
+    margin-bottom: 40px;
+
+}
+
+.pomo-wrapper{
+        display: flex;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+}
+
+.left{
+    flex: 1;
+}
+
+.break{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.left p {
+    
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.left-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.left-down{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 3px;
+    color: white;
+    background-color: rgb(6, 6, 211);
+    border: 1px solid rgb(6, 6, 211);
+    border-radius: 5px;
+}
+
+.left-up{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    color: white;
+    background-color: rgb(6, 6, 211);
+    border: 1px solid rgb(6, 6, 211);
+    border-radius: 5px;
+}
+
+.right{
+    flex:1
+}
+
+.right p {
+    
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.timer{
+    margin: auto;
+    width: 25%;
+    border: 3px solid rgb(6, 6, 211);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.work-timer{
+    font-size: large;
+}
+
+.work-timer {
+    
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.btn-wrap{
+    margin-top: 10px;
+}
+
+.btn{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    background-color: rgb(6, 6, 211);
+    border: 1px solid rgb(6, 6, 211);
+    border-radius: 5px;
+}
